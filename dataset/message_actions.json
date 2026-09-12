@@ -1,0 +1,661 @@
+{
+  "message_01": {
+    "amount": 42750000.0,
+    "currency": "IDR",
+    "effective_date": "2025-08-15",
+    "kind": "salary_change"
+  },
+  "message_04": {
+    "amount": 1037.52,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_06": {
+    "amount": 1422.85,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_07": {
+    "kind": "unsettled_credit"
+  },
+  "message_08": {
+    "amount": 38760000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_09": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_10": {
+    "amount": 2717.0,
+    "currency": "EUR",
+    "effective_date": "2025-08-15",
+    "kind": "salary_change"
+  },
+  "message_100": {
+    "amount": 2177.28,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_102": {
+    "amount": 1193.4,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_103": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_104": {
+    "amount": 828.0,
+    "currency": "USD",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_106": {
+    "kind": "unsettled_credit"
+  },
+  "message_107": {
+    "amount": 31900.0,
+    "currency": "ZAR",
+    "effective_date": "2025-02-15",
+    "kind": "salary_change"
+  },
+  "message_108": {
+    "kind": "settled_credit"
+  },
+  "message_11": {
+    "amount": 1661.0,
+    "currency": "EUR",
+    "effective_date": "2026-01-15",
+    "kind": "salary_change"
+  },
+  "message_110": {
+    "kind": "settled_credit"
+  },
+  "message_111": {
+    "amount": 864.0,
+    "currency": "USD",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_112": {
+    "amount": 258000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_113": {
+    "amount": 1529.0,
+    "currency": "EUR",
+    "effective_date": "2026-04-15",
+    "kind": "salary_change"
+  },
+  "message_114": {
+    "kind": "settled_credit"
+  },
+  "message_115": {
+    "amount": 893.75,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_116": {
+    "amount": 46170000.0,
+    "currency": "IDR",
+    "effective_date": "2024-09-15",
+    "kind": "salary_change"
+  },
+  "message_119": {
+    "amount": 1628.0,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_120": {
+    "amount": 84000.0,
+    "currency": "INR",
+    "effective_date": "2025-05-15",
+    "kind": "salary_change"
+  },
+  "message_121": {
+    "kind": "unsettled_credit"
+  },
+  "message_122": {
+    "amount": 23940000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_123": {
+    "kind": "unsettled_credit"
+  },
+  "message_125": {
+    "amount": 26790000.0,
+    "currency": "IDR",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_126": {
+    "amount": 29070000.0,
+    "currency": "IDR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_128": {
+    "amount": 44270000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_129": {
+    "kind": "salary_dropped"
+  },
+  "message_13": {
+    "kind": "internal_transfer"
+  },
+  "message_132": {
+    "amount": 137150.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_135": {
+    "kind": "internal_transfer"
+  },
+  "message_137": {
+    "amount": 1284.0,
+    "currency": "USD",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_138": {
+    "amount": 1924.56,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_139": {
+    "amount": 847.0,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_14": {
+    "kind": "unsettled_credit"
+  },
+  "message_140": {
+    "amount": 1731.6,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_143": {
+    "amount": 59000.0,
+    "currency": "INR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_144": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_148": {
+    "amount": 31889.0,
+    "currency": "ZAR",
+    "kind": "salary_change"
+  },
+  "message_15": {
+    "kind": "unrealized_investment"
+  },
+  "message_151": {
+    "amount": 627.0,
+    "currency": "EUR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_152": {
+    "kind": "unsettled_credit"
+  },
+  "message_153": {
+    "amount": 1750.32,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_155": {
+    "amount": 1222.65,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_156": {
+    "amount": 38190000.0,
+    "currency": "IDR",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_157": {
+    "kind": "unsettled_credit"
+  },
+  "message_158": {
+    "kind": "unsettled_credit"
+  },
+  "message_16": {
+    "kind": "no_action"
+  },
+  "message_160": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_162": {
+    "amount": 2024.0,
+    "currency": "EUR",
+    "effective_date": "2026-01-15",
+    "kind": "salary_change"
+  },
+  "message_164": {
+    "kind": "unsettled_credit"
+  },
+  "message_166": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_168": {
+    "kind": "unsettled_credit"
+  },
+  "message_169": {
+    "amount": 2424.0,
+    "currency": "USD",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_17": {
+    "kind": "settled_credit"
+  },
+  "message_170": {
+    "amount": 1914.0,
+    "currency": "EUR",
+    "effective_date": "2026-04-15",
+    "kind": "salary_change"
+  },
+  "message_171": {
+    "amount": 1346.4,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_172": {
+    "kind": "unsettled_credit"
+  },
+  "message_176": {
+    "amount": 260000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_177": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_178": {
+    "amount": 30400000.0,
+    "currency": "IDR",
+    "effective_date": "2026-04-15",
+    "kind": "salary_change"
+  },
+  "message_179": {
+    "kind": "unsettled_credit"
+  },
+  "message_180": {
+    "amount": 2827.0,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_181": {
+    "amount": 2772.0,
+    "currency": "EUR",
+    "effective_date": "2024-06-15",
+    "kind": "salary_change"
+  },
+  "message_182": {
+    "amount": 16910000.0,
+    "currency": "IDR",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_183": {
+    "kind": "unsettled_credit"
+  },
+  "message_186": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_187": {
+    "amount": 912.0,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_188": {
+    "amount": 62000.0,
+    "currency": "INR",
+    "effective_date": "2026-01-15",
+    "kind": "salary_change"
+  },
+  "message_189": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_19": {
+    "kind": "unsettled_credit"
+  },
+  "message_191": {
+    "amount": 1680.0,
+    "currency": "USD",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_192": {
+    "kind": "salary_dropped"
+  },
+  "message_193": {
+    "amount": 1528.56,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_194": {
+    "amount": 1548.0,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_195": {
+    "amount": 702.0,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_198": {
+    "kind": "unsettled_credit"
+  },
+  "message_199": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_20": {
+    "amount": 1452.0,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_200": {
+    "amount": 214000.0,
+    "currency": "INR",
+    "effective_date": "2024-06-15",
+    "kind": "salary_change"
+  },
+  "message_201": {
+    "kind": "unsettled_credit"
+  },
+  "message_202": {
+    "kind": "internal_transfer"
+  },
+  "message_203": {
+    "amount": 48260000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_204": {
+    "amount": 1485.0,
+    "currency": "EUR",
+    "effective_date": "2025-05-15",
+    "kind": "salary_change"
+  },
+  "message_206": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_207": {
+    "kind": "unrealized_investment"
+  },
+  "message_209": {
+    "kind": "no_action"
+  },
+  "message_21": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_211": {
+    "amount": 103000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_22": {
+    "amount": 54120.0,
+    "currency": "ZAR",
+    "effective_date": "2025-02-15",
+    "kind": "salary_change"
+  },
+  "message_23": {
+    "kind": "internal_transfer"
+  },
+  "message_25": {
+    "kind": "unsettled_credit"
+  },
+  "message_26": {
+    "amount": 2988.0,
+    "currency": "USD",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_28": {
+    "kind": "settled_credit"
+  },
+  "message_29": {
+    "amount": 1760.0,
+    "currency": "EUR",
+    "effective_date": "2024-06-15",
+    "kind": "salary_change"
+  },
+  "message_30": {
+    "amount": 148000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_31": {
+    "amount": 32870000.0,
+    "currency": "IDR",
+    "effective_date": "2024-09-15",
+    "kind": "salary_change"
+  },
+  "message_32": {
+    "amount": 115000.0,
+    "currency": "INR",
+    "effective_date": "2025-02-15",
+    "kind": "salary_change"
+  },
+  "message_33": {
+    "amount": 17290000.0,
+    "currency": "IDR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_34": {
+    "kind": "unsettled_credit"
+  },
+  "message_36": {
+    "amount": 31464000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_37": {
+    "amount": 126000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_39": {
+    "kind": "unsettled_credit"
+  },
+  "message_40": {
+    "amount": 42460.0,
+    "currency": "ZAR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_41": {
+    "kind": "internal_transfer"
+  },
+  "message_42": {
+    "amount": 25840000.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_43": {
+    "kind": "unsettled_credit"
+  },
+  "message_44": {
+    "amount": 530.4,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_45": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_48": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_52": {
+    "kind": "unrealized_investment"
+  },
+  "message_54": {
+    "amount": 18700.0,
+    "currency": "ZAR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_57": {
+    "kind": "salary_dropped"
+  },
+  "message_58": {
+    "amount": 3072.0,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_59": {
+    "kind": "unsettled_credit"
+  },
+  "message_60": {
+    "amount": 158000.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_62": {
+    "amount": 1752.0,
+    "currency": "USD",
+    "kind": "salary_change"
+  },
+  "message_63": {
+    "amount": 62000.0,
+    "currency": "INR",
+    "effective_date": "2025-05-15",
+    "kind": "salary_change"
+  },
+  "message_65": {
+    "amount": 8618400.0,
+    "currency": "IDR",
+    "kind": "salary_change"
+  },
+  "message_66": {
+    "amount": 251000.0,
+    "currency": "INR",
+    "effective_date": "2026-01-15",
+    "kind": "salary_change"
+  },
+  "message_67": {
+    "kind": "no_action"
+  },
+  "message_69": {
+    "kind": "unsettled_credit"
+  },
+  "message_70": {
+    "amount": 49280.0,
+    "currency": "ZAR",
+    "kind": "salary_change"
+  },
+  "message_71": {
+    "kind": "no_action"
+  },
+  "message_74": {
+    "amount": 1804.0,
+    "currency": "EUR",
+    "effective_date": "2025-08-15",
+    "kind": "salary_change"
+  },
+  "message_75": {
+    "kind": "settled_credit"
+  },
+  "message_77": {
+    "amount": 164880.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_78": {
+    "amount": 35860.0,
+    "currency": "ZAR",
+    "kind": "salary_change"
+  },
+  "message_79": {
+    "kind": "unrealized_investment"
+  },
+  "message_82": {
+    "amount": 33440.0,
+    "currency": "ZAR",
+    "kind": "salary_change"
+  },
+  "message_84": {
+    "kind": "salary_dropped"
+  },
+  "message_85": {
+    "amount": 627.0,
+    "currency": "EUR",
+    "effective_date": "2024-06-15",
+    "kind": "salary_change"
+  },
+  "message_87": {
+    "amount": 148200.0,
+    "currency": "INR",
+    "kind": "salary_change"
+  },
+  "message_88": {
+    "kind": "settled_credit"
+  },
+  "message_89": {
+    "amount": 1188.0,
+    "currency": "EUR",
+    "effective_date": "2026-07-15",
+    "kind": "salary_change"
+  },
+  "message_90": {
+    "amount": 759.0,
+    "currency": "EUR",
+    "kind": "salary_change"
+  },
+  "message_91": {
+    "amount": 176000.0,
+    "currency": "INR",
+    "effective_date": "2025-05-15",
+    "kind": "salary_change"
+  },
+  "message_92": {
+    "kind": "settled_credit"
+  },
+  "message_94": {
+    "kind": "unsettled_credit"
+  },
+  "message_95": {
+    "amount": 748.0,
+    "currency": "EUR",
+    "effective_date": "2025-11-15",
+    "kind": "salary_change"
+  },
+  "message_97": {
+    "amount": 50160.0,
+    "currency": "ZAR",
+    "effective_date": "2024-09-15",
+    "kind": "salary_change"
+  },
+  "message_98": {
+    "category": "salary",
+    "kind": "income_ended"
+  },
+  "message_99": {
+    "kind": "settled_credit"
+  }
+}
