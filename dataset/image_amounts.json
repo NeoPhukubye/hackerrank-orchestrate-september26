@@ -1,0 +1,18 @@
+{
+  "image_01": {"amount": 4365000, "currency": "IDR", "kind": "net_pay"},
+  "image_02": {"amount": 100000, "currency": "INR", "kind": "balance_due"},
+  "image_03": {"amount": 41272, "currency": "INR", "kind": "net_amount"},
+  "image_04": {"amount": 2854.00, "currency": "INR", "kind": "total_order_bill"},
+  "image_05": {"amount": 704.05, "currency": "INR", "kind": "amount_due"},
+  "image_06": {"amount": 1995.00, "currency": "INR", "kind": "total"},
+  "image_07": {"amount": 8528, "currency": "INR", "kind": "grand_total"},
+  "image_08": {"amount": 15339.00, "currency": "INR", "kind": "total_received"},
+  "image_09": {"amount": 723.00, "currency": "INR", "kind": "total_received"},
+  "image_10": {"amount": 79679.26, "currency": "INR", "kind": "balance_due"},
+  "image_11": {"amount": 3650.00, "currency": "USD", "kind": "balance"},
+  "image_12": {"amount": 33.50, "currency": "USD", "kind": "total"},
+  "image_13": {"amount": 2298, "currency": "INR", "kind": "total_paid"},
+  "image_14": {"amount": 4543.00, "currency": "INR", "kind": "total"},
+  "image_15": {"amount": 9968.00, "currency": "INR", "kind": "grand_total"},
+  "image_16": {"amount": 393.22, "currency": "INR", "kind": "total"}
+}
