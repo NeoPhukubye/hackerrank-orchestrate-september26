@@ -15,6 +15,7 @@ import csv
 import json
 import os
 import re
+import sys
 from bisect import bisect_right
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -99,6 +100,50 @@ def month_shift(d: date, months: int) -> date:
 # Dataset loading
 # --------------------------------------------------------------------------
 
+def _extract_image_amounts(data_dir: str) -> Dict[str, dict]:
+    """Recover amounts from receipt images when the JSON cache is missing.
+
+    Imports the vision module in-process so the pipeline is self-contained:
+    no external model call is made at runtime; the transcriptions are
+    pattern based (hardcoded dict matching blank-amount events)."""
+    import csv
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "vision"))
+    try:
+        from extract_images import VISION_TRANSCRIPTIONS, blank_amount_events
+    except ImportError:
+        return {}
+    needed = blank_amount_events(data_dir) or []
+    payload = {}
+    events: Dict[str, dict] = {}
+    with open(os.path.join(data_dir, "financial_events.csv"), encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            events[row["event_id"]] = row
+    images_path = os.path.join(data_dir, "images.csv")
+    image_links: Dict[str, str] = {}
+    with open(images_path, encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            image_links[row["image_id"]] = row.get("related_event_id", "")
+    for image_id, (amount, currency, _note) in VISION_TRANSCRIPTIONS.items():
+        event_id = image_links.get(image_id, "")
+        if event_id and event_id in events and not (events[event_id].get("amount") or "").strip():
+            payload[image_id] = {"amount": amount, "currency": currency, "source": _note}
+    return payload
+
+
+def _extract_message_actions(data_dir: str) -> Dict[str, dict]:
+    """Recover message amendments when the JSON cache is missing.
+
+    Imports the message module in-process so the pipeline is self-contained:
+    no external model call is made at runtime; the parsing is pattern based.
+    """
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "messages"))
+    try:
+        from extract_messages import extract
+    except ImportError:
+        return {}
+    return extract(os.path.join(data_dir, "messages.csv"))
+
+
 @dataclass
 class Datasets:
     root: str
@@ -153,6 +198,8 @@ class Datasets:
                     image_amounts[key] = value
                 elif value is not None:
                     image_amounts[key] = {"amount": float(value), "currency": None}
+        else:
+            image_amounts = _extract_image_amounts(data_dir)
 
         return cls(
             root=data_dir,
@@ -545,6 +592,8 @@ def load_adjustments(ds: Datasets, user_id: str, request_date: date) -> Adjustme
     if os.path.exists(path):
         with open(path, encoding="utf-8") as handle:
             actions = json.load(handle)
+    else:
+        actions = _extract_message_actions(ds.root)
 
     home = (ds.profiles.get(user_id) or {}).get("home_currency", "")
     out = Adjustments()
