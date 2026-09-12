@@ -1164,10 +1164,13 @@ def _period_for(ds: Datasets, user_id: str, row_hint, category: str) -> Optional
     # one. A single irregular gap must not redefine a monthly salary as weekly.
     counted: Dict[int, int] = {}
     for gap in gaps:
-        for known in (7, 14, 28, 30, 31, 60):
+        best = None
+        for known in (7, 10, 14, 21, 28, 30, 31, 60):
             if abs(gap - known) <= 3:
-                counted[known] = counted.get(known, 0) + 1
-                break
+                if best is None or abs(gap - known) < abs(gap - best):
+                    best = known
+        if best is not None:
+            counted[best] = counted.get(best, 0) + 1
     if counted:
         return max(counted.items(), key=lambda item: (item[1], -abs(item[0] - 30)))[0]
     median = sorted(gaps)[len(gaps) // 2]
